@@ -32,7 +32,17 @@ def health():
 
 @app.post("/api/chat", response_model=ChatResponse)
 async def chat(req: ChatRequest):
+    from orchestrator import AgentOrchestrator
+    
+    orchestrator = AgentOrchestrator()
+    result = orchestrator.process(req.message, {"language": req.language})
+    
     return ChatResponse(
-        answer="Backend connected. Full pipeline coming Day 3-7.",
+        answer=result.get("answer", "No response generated"),
+        sources=result.get("sources", []),
+        resources=result.get("resources", []),
+        safety_plan=result.get("safety_plan", []),
+        document_ready=result.get("document_ready", False),
+        is_emergency=result.get("is_emergency", False),
         detected_lang=req.language
     )

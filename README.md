@@ -95,11 +95,11 @@ GROQ_API_KEY=your_groq_key_here
 | Day | Task | Status |
 |---|---|---|
 | Day 1 | Project setup + GitHub + environment | ✅ Done |
-| Day 2 | PDF ingestion + ChromaDB knowledge base | ⏳ |
-| Day 3 | Agent 1 — Legal Retriever | ⏳ |
-| Day 4 | Agent 2 — Document Drafter | ⏳ |
-| Day 5 | Agent 3 — Resource Locator | ⏳ |
-| Day 6 | Agent 4 + LangGraph Orchestrator | ⏳ |
+| Day 2 | PDF ingestion + ChromaDB knowledge base | ✅ Done |
+| Day 3 | Agent 1 — Legal Retriever | ✅ Done |
+| Day 4 | Agent 2 — Document Drafter | ✅ Done |
+| Day 5 | Agent 3 — Resource Locator | ✅ Done |
+| Day 6 | Agent 4 + LangGraph Orchestrator | ✅ Done |
 | Day 7 | Language layer + FastAPI + Emergency mode | ⏳ |
 | Day 8 | React chat UI components | ⏳ |
 | Day 9 | Connect frontend to backend | ⏳ |
