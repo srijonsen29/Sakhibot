@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+langchain
+langchain-community
+langgraph
+chromadb
+sentence-transformers
+groq
+deep-translator
+langdetect
+pymupdf
+python-docx
+reportlab
+python-dotenv
+pydantic
