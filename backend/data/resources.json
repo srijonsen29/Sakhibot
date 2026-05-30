@@ -1,0 +1,545 @@
+{
+  "national_helplines": [
+    {
+      "name": "Women's Helpline",
+      "phone": "181",
+      "description": "24x7 free helpline for women in distress",
+      "availability": "24x7",
+      "type": "helpline"
+    },
+    {
+      "name": "Women in Distress — Police",
+      "phone": "1091",
+      "description": "Police helpline specifically for women",
+      "availability": "24x7",
+      "type": "helpline"
+    },
+    {
+      "name": "NCW Helpline",
+      "phone": "7827170170",
+      "description": "National Commission for Women helpline",
+      "availability": "Mon-Sat 9am-5pm",
+      "type": "helpline"
+    },
+    {
+      "name": "Police Emergency",
+      "phone": "100",
+      "description": "National police emergency number",
+      "availability": "24x7",
+      "type": "helpline"
+    },
+    {
+      "name": "National Emergency",
+      "phone": "112",
+      "description": "Single national emergency number",
+      "availability": "24x7",
+      "type": "helpline"
+    },
+    {
+      "name": "NALSA Legal Aid",
+      "phone": "15100",
+      "description": "Free legal aid — National Legal Services Authority",
+      "availability": "Mon-Sat 10am-5pm",
+      "type": "legal_aid"
+    },
+    {
+      "name": "iCall — TISS",
+      "phone": "9152987821",
+      "description": "Free psychosocial helpline by Tata Institute of Social Sciences",
+      "availability": "Mon-Sat 8am-10pm",
+      "type": "counselling"
+    }
+  ],
+  "one_stop_centres": [
+    {
+      "name": "One Stop Centre — Dharavi",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "address": "Dr Baliga Marg, Dharavi, Mumbai 400017",
+      "phone": "02224042424",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Andheri",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "address": "Andheri (East), Mumbai 400069",
+      "phone": "02226832222",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "address": "Sassoon General Hospital Campus, Pune 411001",
+      "phone": "02026128000",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Nagpur",
+      "district": "Nagpur",
+      "state": "Maharashtra",
+      "address": "Medical Square, Nagpur 440003",
+      "phone": "07122744000",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Delhi Rohini",
+      "district": "Delhi",
+      "state": "Delhi",
+      "address": "Rohini Sector 5, New Delhi 110085",
+      "phone": "01127054177",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Delhi Saket",
+      "district": "Delhi",
+      "state": "Delhi",
+      "address": "Saket District Centre, New Delhi 110017",
+      "phone": "01129560222",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Delhi Dwarka",
+      "district": "Delhi",
+      "state": "Delhi",
+      "address": "Dwarka Sector 10, New Delhi 110075",
+      "phone": "01125083333",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Kolkata North",
+      "district": "Kolkata",
+      "state": "West Bengal",
+      "address": "R G Kar Medical College, Kolkata 700004",
+      "phone": "03325551234",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Kolkata South",
+      "district": "Kolkata",
+      "state": "West Bengal",
+      "address": "SSKM Hospital, AJC Bose Road, Kolkata 700020",
+      "phone": "03322235678",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Howrah",
+      "district": "Howrah",
+      "state": "West Bengal",
+      "address": "Howrah District Hospital, Howrah 711101",
+      "phone": "03326384444",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Chennai",
+      "district": "Chennai",
+      "state": "Tamil Nadu",
+      "address": "Kilpauk Medical College, Chennai 600010",
+      "phone": "04426421234",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Coimbatore",
+      "district": "Coimbatore",
+      "state": "Tamil Nadu",
+      "address": "Coimbatore Medical College Hospital, Coimbatore 641018",
+      "phone": "04222301234",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Bengaluru",
+      "district": "Bengaluru",
+      "state": "Karnataka",
+      "address": "Victoria Hospital, Bengaluru 560002",
+      "phone": "08022975678",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Mysuru",
+      "district": "Mysuru",
+      "state": "Karnataka",
+      "address": "KR Hospital, Mysuru 570001",
+      "phone": "08212424000",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Hyderabad",
+      "district": "Hyderabad",
+      "state": "Telangana",
+      "address": "Osmania General Hospital, Hyderabad 500012",
+      "phone": "04027541234",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Warangal",
+      "district": "Warangal",
+      "state": "Telangana",
+      "address": "MGM Hospital, Warangal 506007",
+      "phone": "08702577777",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Ahmedabad",
+      "district": "Ahmedabad",
+      "state": "Gujarat",
+      "address": "Civil Hospital, Asarwa, Ahmedabad 380016",
+      "phone": "07922681234",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Surat",
+      "district": "Surat",
+      "state": "Gujarat",
+      "address": "New Civil Hospital, Majura Gate, Surat 395001",
+      "phone": "02612244444",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "address": "SMS Hospital, Tonk Road, Jaipur 302004",
+      "phone": "01412518888",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Jodhpur",
+      "district": "Jodhpur",
+      "state": "Rajasthan",
+      "address": "MDM Hospital, Residency Road, Jodhpur 342001",
+      "phone": "02912633333",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Lucknow",
+      "district": "Lucknow",
+      "state": "Uttar Pradesh",
+      "address": "Queen Mary Hospital, Lucknow 226003",
+      "phone": "05222305678",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Kanpur",
+      "district": "Kanpur",
+      "state": "Uttar Pradesh",
+      "address": "Hallet Hospital, Kanpur 208001",
+      "phone": "05122358888",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Agra",
+      "district": "Agra",
+      "state": "Uttar Pradesh",
+      "address": "SN Medical College, Agra 282002",
+      "phone": "05622527777",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Patna",
+      "district": "Patna",
+      "state": "Bihar",
+      "address": "PMCH Campus, Patna 800004",
+      "phone": "06122672345",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Muzaffarpur",
+      "district": "Muzaffarpur",
+      "state": "Bihar",
+      "address": "SKMCH Campus, Muzaffarpur 842004",
+      "phone": "06212245678",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Bhopal",
+      "district": "Bhopal",
+      "state": "Madhya Pradesh",
+      "address": "Hamidia Hospital, Bhopal 462001",
+      "phone": "07552533333",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Indore",
+      "district": "Indore",
+      "state": "Madhya Pradesh",
+      "address": "MY Hospital, Indore 452001",
+      "phone": "07312362222",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Bhubaneswar",
+      "district": "Bhubaneswar",
+      "state": "Odisha",
+      "address": "Capital Hospital, Bhubaneswar 751001",
+      "phone": "06742391234",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Guwahati",
+      "district": "Guwahati",
+      "state": "Assam",
+      "address": "Gauhati Medical College, Guwahati 781032",
+      "phone": "03612529999",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Chandigarh",
+      "district": "Chandigarh",
+      "state": "Chandigarh",
+      "address": "PGIMER Campus, Sector 12, Chandigarh 160012",
+      "phone": "01722756565",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Thiruvananthapuram",
+      "district": "Thiruvananthapuram",
+      "state": "Kerala",
+      "address": "SAT Hospital, Thiruvananthapuram 695001",
+      "phone": "04712443333",
+      "open_hours": "24x7",
+      "type": "osc"
+    },
+    {
+      "name": "One Stop Centre — Kochi",
+      "district": "Kochi",
+      "state": "Kerala",
+      "address": "Ernakulam General Hospital, Kochi 682011",
+      "phone": "04842361234",
+      "open_hours": "24x7",
+      "type": "osc"
+    }
+  ],
+  "shelter_homes": [
+    {
+      "name": "Swadhar Greh — Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "address": "Bandra West, Mumbai 400050",
+      "phone": "02226420000",
+      "open_hours": "24x7",
+      "type": "shelter"
+    },
+    {
+      "name": "Ujjawala Home — Delhi",
+      "district": "Delhi",
+      "state": "Delhi",
+      "address": "Jahangirpuri, New Delhi 110033",
+      "phone": "01127681234",
+      "open_hours": "24x7",
+      "type": "shelter"
+    },
+    {
+      "name": "Swadhar Home — Kolkata",
+      "district": "Kolkata",
+      "state": "West Bengal",
+      "address": "Salt Lake Sector 3, Kolkata 700097",
+      "phone": "03323590000",
+      "open_hours": "24x7",
+      "type": "shelter"
+    },
+    {
+      "name": "Short Stay Home — Chennai",
+      "district": "Chennai",
+      "state": "Tamil Nadu",
+      "address": "Adyar, Chennai 600020",
+      "phone": "04424410000",
+      "open_hours": "24x7",
+      "type": "shelter"
+    },
+    {
+      "name": "Swadhar Greh — Bengaluru",
+      "district": "Bengaluru",
+      "state": "Karnataka",
+      "address": "Jayanagar, Bengaluru 560041",
+      "phone": "08026561234",
+      "open_hours": "24x7",
+      "type": "shelter"
+    },
+    {
+      "name": "Swadhar Home — Hyderabad",
+      "district": "Hyderabad",
+      "state": "Telangana",
+      "address": "Secunderabad, Hyderabad 500003",
+      "phone": "04027803456",
+      "open_hours": "24x7",
+      "type": "shelter"
+    },
+    {
+      "name": "Swadhar Greh — Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "address": "Malviya Nagar, Jaipur 302017",
+      "phone": "01412790000",
+      "open_hours": "24x7",
+      "type": "shelter"
+    },
+    {
+      "name": "Swadhar Home — Lucknow",
+      "district": "Lucknow",
+      "state": "Uttar Pradesh",
+      "address": "Indira Nagar, Lucknow 226016",
+      "phone": "05222723456",
+      "open_hours": "24x7",
+      "type": "shelter"
+    },
+    {
+      "name": "Swadhar Greh — Patna",
+      "district": "Patna",
+      "state": "Bihar",
+      "address": "Rajendra Nagar, Patna 800016",
+      "phone": "06122573456",
+      "open_hours": "24x7",
+      "type": "shelter"
+    },
+    {
+      "name": "Swadhar Home — Bhopal",
+      "district": "Bhopal",
+      "state": "Madhya Pradesh",
+      "address": "Arera Colony, Bhopal 462016",
+      "phone": "07552763456",
+      "open_hours": "24x7",
+      "type": "shelter"
+    }
+  ],
+  "legal_aid_offices": [
+    {
+      "name": "DLSA Mumbai",
+      "district": "Mumbai",
+      "state": "Maharashtra",
+      "address": "City Civil Court, Mumbai 400001",
+      "phone": "02222694444",
+      "open_hours": "Mon-Sat 10am-5pm",
+      "type": "legal_aid"
+    },
+    {
+      "name": "DLSA Delhi",
+      "district": "Delhi",
+      "state": "Delhi",
+      "address": "Patiala House Courts, New Delhi 110001",
+      "phone": "01123384444",
+      "open_hours": "Mon-Sat 10am-5pm",
+      "type": "legal_aid"
+    },
+    {
+      "name": "DLSA Kolkata",
+      "district": "Kolkata",
+      "state": "West Bengal",
+      "address": "High Court, Kolkata 700001",
+      "phone": "03322130000",
+      "open_hours": "Mon-Sat 10am-5pm",
+      "type": "legal_aid"
+    },
+    {
+      "name": "DLSA Chennai",
+      "district": "Chennai",
+      "state": "Tamil Nadu",
+      "address": "High Court Buildings, Chennai 600104",
+      "phone": "04425340000",
+      "open_hours": "Mon-Sat 10am-5pm",
+      "type": "legal_aid"
+    },
+    {
+      "name": "DLSA Bengaluru",
+      "district": "Bengaluru",
+      "state": "Karnataka",
+      "address": "City Civil Court, Bengaluru 560009",
+      "phone": "08022861234",
+      "open_hours": "Mon-Sat 10am-5pm",
+      "type": "legal_aid"
+    },
+    {
+      "name": "DLSA Hyderabad",
+      "district": "Hyderabad",
+      "state": "Telangana",
+      "address": "City Civil Court, Hyderabad 500004",
+      "phone": "04023234444",
+      "open_hours": "Mon-Sat 10am-5pm",
+      "type": "legal_aid"
+    },
+    {
+      "name": "DLSA Ahmedabad",
+      "district": "Ahmedabad",
+      "state": "Gujarat",
+      "address": "City Civil Court, Ahmedabad 380001",
+      "phone": "07922754444",
+      "open_hours": "Mon-Sat 10am-5pm",
+      "type": "legal_aid"
+    },
+    {
+      "name": "DLSA Jaipur",
+      "district": "Jaipur",
+      "state": "Rajasthan",
+      "address": "High Court, Jaipur 302005",
+      "phone": "01412627777",
+      "open_hours": "Mon-Sat 10am-5pm",
+      "type": "legal_aid"
+    },
+    {
+      "name": "DLSA Lucknow",
+      "district": "Lucknow",
+      "state": "Uttar Pradesh",
+      "address": "High Court, Lucknow 226001",
+      "phone": "05222234444",
+      "open_hours": "Mon-Sat 10am-5pm",
+      "type": "legal_aid"
+    },
+    {
+      "name": "DLSA Patna",
+      "district": "Patna",
+      "state": "Bihar",
+      "address": "Patna High Court, Patna 800001",
+      "phone": "06122671234",
+      "open_hours": "Mon-Sat 10am-5pm",
+      "type": "legal_aid"
+    },
+    {
+      "name": "DLSA Bhopal",
+      "district": "Bhopal",
+      "state": "Madhya Pradesh",
+      "address": "High Court, Bhopal 462001",
+      "phone": "07552540000",
+      "open_hours": "Mon-Sat 10am-5pm",
+      "type": "legal_aid"
+    },
+    {
+      "name": "DLSA Pune",
+      "district": "Pune",
+      "state": "Maharashtra",
+      "address": "District Court, Pune 411001",
+      "phone": "02026123456",
+      "open_hours": "Mon-Sat 10am-5pm",
+      "type": "legal_aid"
+    }
+  ]
+}

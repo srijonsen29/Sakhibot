@@ -1,0 +1,43 @@
+{
+  "timestamp": 1780158458.8200862,
+  "query": "I need a shelter near me",
+  "data": {
+    "answer": "You can contact the Protection Officer or a service provider to request a shelter near you. They will provide you with a list of available shelter homes in your local area. \n\nAccording to Section 6 of the Protection of Women from Domestic Violence Act, 2005, the person in charge of a shelter home shall provide shelter to the aggrieved person in the shelter home if requested by the aggrieved person, a Protection Officer, or a service provider.\n\nPractical next step: Contact the local Protection Officer or a service provider to request a shelter near you. You can find their contact information through local authorities or women's helplines.",
+    "sources": [
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 18
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 8
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 15
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 0
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 21
+      }
+    ],
+    "chunks": [
+      "for issuance of a protection order; (d) to ensure that the aggrieved person is provided legal aid under the Legal Services Authorities Act, 1987 (39 of 1987) and make available free of cost the prescribed form in which a complaint is to be made; (e) to maintain a list of all service providers providing legal aid or counselling, shelter homes and medical facilities in a local area within the jurisdiction of the Magistrate; (f) to make available a safe shelter home, if the aggrieved person so requires and forward a copy of his report of having lodged the aggrieved person in a shelter home to the police station and the Magistrate having jurisdiction in the area where the shelter home is situated; (g) to get the aggrieved person medically examined, if she has sustained bodily injuries and forward a copy of the medical report to the police station and the",
+      "the aggrieved person and the respondent, or owned or tenanted by either of them in respect of which either the aggrieved person or the respondent or both jointly or singly have any right, title, interest or equity and includes such a household which may belong to the joint family of which the respondent is a member, irrespective of whether the respondent or the aggrieved person has any right, title or interest in the shared household; (t) “shelter home” means any shelter home as may be notified by the State Government to be as helter home for the purposes of this Act. CHAPTER II DOMESTIC VIOLENCE 3. Definition of domestic violence.—For the purposes of this Act, any act, omission or commission or conduct of the respondent shall constitute domestic violence in case it— (a) harms or injures or endangers the health, safety, life, limb or well-being, whether mental or physical, of",
+      "to relieve a police officer from his duty to proceed in accordance with law upon receipt of information as to the commission of a cognizable offence. 6. Duties of shelter homes.—If an aggrieved person or on her behalf a Protection Officer or a service provider requests the person in charge of a shelter home to provide shelter to her, such person in charge of the shelter home shall provide shelter to the aggrieved person in the shelter home. 7. Duties of medical facilities.—If an aggrieved person or, on her behalf a Protection Officer or a service provider requests the person in charge of a medical facility to provide any medical aid to her, such person in charge of the medical facility shall provide medical aid to the aggrieved person in the medical facility. 8. Appointment of Protection Officers.—(1) The State Government shall, by notification, appoint such number of Protection Officers",
+      "[Page 1] 1 THE PROTECTION OF WOMEN FROM DOMESTIC VIOLENCE ACT, 2005 _____________ ARRANGEMENT OF SECTIONS _____________ CHAPTER I PRELIMINARY SECTIONS 1. Short title, extent and commencement. 2. Definitions. CHAPTER II DOMESTIC VIOLENCE 3. Definitions of domestic violence. CHAPTER III POWERS AND DUTIES OF PROTECTION OFFICERS, SERVICE PROVIDERS, ETC. 4. Information to Protection Officer and exclusion of liability of informant. 5. Duties of police officers, service providers and Magistrate. 6. Duties of shelter homes. 7. Duties of medical facilities. 8. Appointment of Protection Officers. 9. Duties and functions of Protection Officers. 10. Service providers. 11. Duties of Government. CHAPTER IV PROCEDURE FOR OBTAINING ORDERS OF RELIEFS 12. Application of Magistrate. 13. Service of notice. 14. Counselling. 15. Assistance of welfare expert. 16. Proceedings to be held in camera. 17. Right to reside in a shared household. 18. Protection orders. 19. Residence orders. 20. Monetary reliefs. 21. Custody orders. 22. Compensation",
+      "person so desires and forward a copy thereof to the Magistrate and the Protection Officer having jurisdiction in the area where the domestic violence took place; (b) get the aggrieved person medically examined and forward a copy of the medical repot to the Protection Officer and the police station within the local limits of which the domestic violence took place; (c) ensure that the aggrieved person is provided shelter in a shelter home, if she so requires and forward a report of the lodging of the aggrieved person in the shelter home to the police station within the local limits of which the domestic violence took place. (3) No suit, prosecution or other legal proceeding shall lie against any service provider or any member of the service provider who is, or who is deemed to be, acting or purporting to act under this Act, for anything which is in good"
+    ],
+    "confidence": "high",
+    "query": "I need a shelter near me"
+  }
+}
