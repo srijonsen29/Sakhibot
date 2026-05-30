@@ -1,0 +1,43 @@
+{
+  "timestamp": 1780137790.8585348,
+  "query": "Can a woman get a protection order against her husband?",
+  "data": {
+    "answer": "According to the context, a woman can get a protection order against her husband. The Act states that no order under clause (b) shall be passed against any person who is a woman (Context 1, Page 9). However, this does not mean that a woman cannot get a protection order against her husband. In fact, the Act provides for various reliefs, including protection orders, which can be obtained by an aggrieved person, including a woman (Context 2, Section 18).\n\nIf you are a woman facing domestic violence, you can take the following practical next step:\n\n**Next Step:** Contact your local Protection Officer and report the incident of domestic violence. They will assist you in making an application for a protection order and provide you with necessary support and guidance. (Context 3, Section 5)",
+    "sources": [
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 32
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 1
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 13
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 24
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 17
+      }
+    ],
+    "chunks": [
+      "respondent from renouncing his rights in the shared household except with the leave of the Magistrate; or (f) directing the respondent to secure same level of alternate accommodation for the aggrieved person as enjoyed by her in the shared household or to pay rent for the same, if the circumstances so require: Provided that no order under clause (b) shall be passed against any person who is a woman. [Page 9] 9 (2) The Magistrate may impose any additional conditions or pass any other direction which he may deem reasonably necessary to protect or to provide for the safety of the aggrieved person or any child of such aggrieved person. (3) The Magistrate may require from the respondent to execute a bond, with or without sureties, for preventing the commission of domestic violence. (4) An order under sub-section (3) shall be deemed to be an order under Chapter VIII of",
+      "expert. 16. Proceedings to be held in camera. 17. Right to reside in a shared household. 18. Protection orders. 19. Residence orders. 20. Monetary reliefs. 21. Custody orders. 22. Compensation orders. 23. Power to grant interim and ex parte orders. 24. Court to give copies of order free of cost. 25. Duration of orders. 26. Relief in other suits and legal proceedings. 27. Jurisdiction. 28. Procedure. [Page 2] 2 SECTIONS 29. Appeal. CHAPTER V MISCELLANEOUS 30. Protection Officers and members of service providers to be public servants. 31. Penalty for breach of protection order by respondent. 32. Cognizance and proof. 33. Penalty for not discharging duty by Protection Officers. 34. Cognizance of offence committed by Protection Officer. 35. Protection of action taken in good faith. 36. Act not in derogation of any other law. 37. Power of Central Government to make rules. [Page 3] 3 THE PROTECTION OF WOMEN FROM",
+      "PROTECTION OFFICERS, SERVICE PROVIDERS, ETC. 4. Information to Protection Officer and exclusion of liability of informant.—(1) Any person who has reason to believe that an act of domestic violence has been, or is being, or is likely to be committed, may give information about it to the concerned Protection Officer. (2) No liability, civil or criminal, shall be incurred by any person for giving in good faith of information for the purpose of sub-section (1). 5. Duties of police officers, service providers and Magistrate.—A police officer, Protection Officer, service provider or Magistrate who has received a complaint of domestic violence or is otherwise present at the place of an incident of domestic violence or when the incident of domestic violence is reported to him, shall inform the aggrieved person— (a) of her right to make an application for obtaining a relief by way of a protection order, an order for",
+      "more reliefs under this Act: Provided that before passing any order on such application, the Magistrate shall take into consideration any domestic incident report received by him from the Protection Officer or the service provider. (2) The relief sought for under sub-section (1) may include a relief for issuance of an order for payment of compensation or damages without prejudice to the right of such person to institute a suit for compensation or damages for the injuries caused by the acts of domestic violence committed by the respondent: Provided that where a decree for any amount as compensation or damages has been passed by any court in favour of the aggrieved person, the amount, if any, paid or payable in pursuance of the order made by the Magistrate under this Act shall be set off against the amount payable under such decree and the decree shall, notwithstanding anything contained in",
+      "functions of Protection Officers.—(1) It shall be the duty of the Protection Officer— (a) to assist the Magistrate in the discharge of his functions under this Act; (b) to make a domestic incident report to the Magistrate, in such form and in such manner as may be prescribed, upon receipt of a complaint of domestic violence and forward copies thereof to the police officer in charge of the police station within the local limits of whose jurisdiction domestic violence is alleged to have been committed and to the service providers in that area; (c) to make an application in such form and in such manner as may be prescribed to the Magistrate, if the aggrieved person so desires, claiming relief for issuance of a protection order; (d) to ensure that the aggrieved person is provided legal aid under the Legal Services Authorities Act, 1987 (39 of 1987) and make available"
+    ],
+    "confidence": "high",
+    "query": "Can a woman get a protection order against her husband?"
+  }
+}

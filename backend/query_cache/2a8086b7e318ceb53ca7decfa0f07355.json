@@ -1,0 +1,43 @@
+{
+  "timestamp": 1780137982.9670308,
+  "query": "What is equal remuneration for women in India?",
+  "data": {
+    "answer": "According to the Equal Remuneration Act, 1976, equal remuneration for women in India means that they should receive the same pay as men for performing the same work or work of a similar nature (Section 4, Chapter II).\n\nIn simpler words, women should get the same salary as men for doing the same job.\n\nPractical next step: If you feel you are being paid less than your male colleagues for the same work, you can speak to your employer or HR department about it. If they do not respond or resolve the issue, you can consider seeking help from a local women's rights organization or a lawyer who specializes in labor laws.",
+    "sources": [
+      {
+        "source": "Equal Remuneration Act",
+        "filename": "equal_remuneration_act.pdf",
+        "chunk_index": 0
+      },
+      {
+        "source": "Equal Remuneration Act",
+        "filename": "equal_remuneration_act.pdf",
+        "chunk_index": 6
+      },
+      {
+        "source": "Equal Remuneration Act",
+        "filename": "equal_remuneration_act.pdf",
+        "chunk_index": 7
+      },
+      {
+        "source": "Equal Remuneration Act",
+        "filename": "equal_remuneration_act.pdf",
+        "chunk_index": 9
+      },
+      {
+        "source": "Equal Remuneration Act",
+        "filename": "equal_remuneration_act.pdf",
+        "chunk_index": 1
+      }
+    ],
+    "chunks": [
+      "[Page 1] 1 THE EQUAL REMUNERATION ACT, 1976 ACT NO. 25 OF 1976 [11th February, 1976.] An Act to provide for the payment of equal remuneration to men and women workers and for the prevention of discrimination, on the ground of sex, against women in the matter of employment and for matters connected therewith or incidental thereto. BE it enacted by Parliament in the Twenty-seventh Year of the Republic of India as follows:— CHAPTER I PRELIMINARY 1. Short title, extent and commencement.—(1) This Act may be called the Equal Remuneration Act, 1976. (2) It extends to the whole of India.",
+      "March, 1976, see Gazette of India, Extraordinary, Part II, sec. 3(ii). [Page 2] 2 3. Act to have overriding effect.—The provisions of this Act shall have effect notwithstanding anything inconsistent therewith contained in any other law or in the terms of any award, agreement or contract of service, whether made before or after the commencement of this Act, or in any instrument having effect under any law for the time being in force. CHAPTER II PAYMENT OF REMUNERATION AT EQUAL RATES TO MEN AND WOMEN WORKERS AND OTHER MATTERS 4. Duty of employer to pay equal remuneration to men and",
+      "RATES TO MEN AND WOMEN WORKERS AND OTHER MATTERS 4. Duty of employer to pay equal remuneration to men and women workers for same work or work of a similar nature.—(1) No employer shall pay to any worker, employed by him in an establishment or employment, remuneration, whether payable in cash or in kind, at rates less favourable than those at which remuneration is paid by him to the workers of the opposite sex in such establishment or employment for performing the same work or work of a similar nature. (2) No employer shall, for the purpose of complying with",
+      "there are only two rates), or, as the case may be, the highest (in cases where there are more than two rates), of such rates shall be the rate at which remuneration shall be payable, on and from such commencement, to such men and women workers: Provided that nothing in this sub-section shall be deemed to entitle a worker to the revision of the rate of remuneration payable to him or her with reference to the service rendered by him or her before the commencement of this Act. 5. No discrimination to be made while recruiting men and women workers.—On",
+      "and commencement.—(1) This Act may be called the Equal Remuneration Act, 1976. (2) It extends to the whole of India. (3) It shall come into force on such date1, not being later than three years from the passing of this Act, as the Central Government may, by notification, appoint and different dates may be appointed for different establishments or employments. 2. Definitions.—In this Act, unless the context otherwise requires,— (a) “appropriate Government” means,— (i) in relation to any employment carried on by or under the authority of the Central Government or a railway administration, or in relation to a banking"
+    ],
+    "confidence": "high",
+    "query": "What is equal remuneration for women in India?"
+  }
+}

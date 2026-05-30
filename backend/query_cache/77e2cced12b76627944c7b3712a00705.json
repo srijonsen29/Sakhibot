@@ -1,0 +1,43 @@
+{
+  "timestamp": 1780137921.5459392,
+  "query": "What is the punishment for dowry demand in India?",
+  "data": {
+    "answer": "According to the context, the punishment for giving or taking dowry is imprisonment for a term which shall not be less than 5 years, and with a fine which shall not be less than 15,000 rupees or the amount of the value of such dowry, whichever is more. (Context 1)\n\nHowever, the Court may, for adequate and special reasons to be recorded in the judgment, impose a sentence of imprisonment for a term of less than 5 years. (Context 1)\n\nNOTICE: The Act does not specifically mention the punishment for dowry demand. It only mentions the punishment for giving or taking dowry. \n\nHowever, according to the context, the burden of proof in certain cases lies on the person who is being prosecuted for taking or abetting the taking of any dowry. (Context 4)\n\nPractical next step: If you or someone you know is a victim of dowry demand, please report it to the authorities immediately. You can also contact the National Commission for Women (NCW) for assistance and support.",
+    "sources": [
+      {
+        "source": "Dowry Prohibition Act",
+        "filename": "dowry_act.pdf",
+        "chunk_index": 3
+      },
+      {
+        "source": "Dowry Prohibition Act",
+        "filename": "dowry_act.pdf",
+        "chunk_index": 10
+      },
+      {
+        "source": "Dowry Prohibition Act",
+        "filename": "dowry_act.pdf",
+        "chunk_index": 2
+      },
+      {
+        "source": "Dowry Prohibition Act",
+        "filename": "dowry_act.pdf",
+        "chunk_index": 21
+      },
+      {
+        "source": "Dowry Prohibition Act",
+        "filename": "dowry_act.pdf",
+        "chunk_index": 0
+      }
+    ],
+    "chunks": [
+      "takes or abets the giving or taking of dowry, he shall be punishable 6[with imprisonment for a term which shall not be less than 7[five years, and with fine which shall not be less than fifteen thousand rupees or the amount of the value of such dowry, whichever is more]: Provided that the Court may, for adequate and special reasons to be recorded in the judgment, impose a sentence of imprisonment for a term of less than 8[five years].] 9[(2) Nothing in sub-section (1) shall apply to, or in relation to,— (a) presents which are given at the time of",
+      "for adequate and special reasons to be recorded in the judgment, impose a sentence of imprisonment for a term of less than six months.] 5. Agreement for giving or taking dowry to be void.—Any agreement for the giving or taking of dowry shall be void. 6. Dowry to be for the benefit of the wife or her heirs.—(1) Where any dowry is received by any person other than the woman in connection with whose marriage it is given, that person shall transfer it to the woman— (a) if the dowry was received before marriage, within 3[three months] after the date",
+      "before 2[or any time after the marriage] 3[in connection with the marriage of the said parties, but does not include] dower or mahr in the case of persons to whom the Muslim Personal Law (Shariat) applies. 4* * * * * Explanation II.—The expression “valuable security” has the same meaning as in section 30 of the Indian Penal Code (45 of 1860). 3. Penalty for giving or taking dowry.—5[(1)] If any person, after the commencement of this Act, gives or takes or abets the giving or taking of dowry, he shall be punishable 6[with imprisonment for a term which shall",
+      "without an order of a Magistrate. (2) Every offence under this Act shall be 7[non-bailable] and non-compoundable.] 8[8A. Burden of proof in certain cases.—Where any person is prosecuted for taking or abetting the taking of any dowry under section 3, or the demanding of dowry under section 4, the burden of proving that he had not committed an offence under those sections shall be on him.] 1. Ins. by Act 63 of 1984, s. 5 (w.e.f. 2-10-1985). 2. Ins. by Act 43 of 1986, s. 5 (w.e.f. 19-11-1986). 3. Subs. by s. 5, ibid., for “her heirs” (w.e.f. 19-11-1986). 4.",
+      "[Page 1] 1 THE DOWRY PROHIBITION ACT, 1961 ACT NO. 28 OF 1961 [20th May, 1961.] An Act to prohibit the giving or taking of dowry. BE it enacted by Parliament in the Twelfth Year of the Republic of India as follows:— 1. Short title, extent and commencement.—(1) This Act may be called the Dowry Prohibition Act, 1961. (2) It extends to the whole of India except the State of Jammu and Kashmir. (3) It shall come into force on such date1 as the Central Government may, by notification in the Official Gazette, appoint. 2. Definition of “dowry”.—In this Act,"
+    ],
+    "confidence": "high",
+    "query": "What is the punishment for dowry demand in India?"
+  }
+}

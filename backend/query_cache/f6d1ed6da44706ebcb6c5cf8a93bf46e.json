@@ -1,0 +1,43 @@
+{
+  "timestamp": 1780137946.9879062,
+  "query": "How many weeks of maternity leave is a woman entitled to in India?",
+  "data": {
+    "answer": "According to Context 5, a woman is entitled to 12 weeks of maternity leave, out of which not more than 6 weeks shall precede the date of her expected delivery.\n\nPractical next step: Check your employment contract or speak with your HR department to confirm the maternity leave policy in your workplace.",
+    "sources": [
+      {
+        "source": "Maternity Benefit Act",
+        "filename": "maternity_act.pdf",
+        "chunk_index": 16
+      },
+      {
+        "source": "Maternity Benefit Act",
+        "filename": "maternity_act.pdf",
+        "chunk_index": 4
+      },
+      {
+        "source": "Maternity Benefit Act",
+        "filename": "maternity_act.pdf",
+        "chunk_index": 28
+      },
+      {
+        "source": "Maternity Benefit Act",
+        "filename": "maternity_act.pdf",
+        "chunk_index": 15
+      },
+      {
+        "source": "Maternity Benefit Act",
+        "filename": "maternity_act.pdf",
+        "chunk_index": 18
+      }
+    ],
+    "chunks": [
+      "daily wage for the period of her actual absence, that is to say, the period immediately preceding the day of her delivery, the actual day of her delivery and any period immediately following that day.] Explanation.—For the purpose of this sub-section, the average daily wage means the average of the woman’s wages payable to her for the days on which she has worked during the period of three calendar months immediately preceding the date from which she absents herself on account of maternity, 4[the minimum rate of wage fixed or revised under the Minimum Wages Act, 1948 (11 of 1948) or ten rupees, whichever is the highest]. (2) No woman shall be entitled to maternity benefit unless she has actually worked in an establishment of the employer from whom she claims maternity \u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001\u0001 1 Subs. by Act 29 of 1995, Section 3(a), for “or her miscarriage” (w.e.f. 1-2-1996). 2 Subs.",
+      "1995 (29 of 1995). [Page 4] \u0001 THE MATERNITY BENEFIT ACT, 1961\u0001 THE MATERNITY BENEFIT ACT, 1961 (53 of 1961) [12th December, 1961] An Act to regulate the employment of women in certain establishments for certain period before and after child-birth and to provide for maternity benefit and certain other benefits. Be it enacted by Parliament in the Twelfth Year of the Republic of India as follows: — 1. Short title, extent and commencement.—(1) This Act may be called the Maternity Benefit Act, 1961. (2) It extends to the whole of India 1[***]. (3) It shall come into force on such date2 as may be notified in this behalf in the Official Gazette,— 3[(a) in relation to mines and to any other establishment wherein persons are employed for the exhibition of equestrian, acrobatic and other performances, by the Central Government; and] (b) in relation to other establishments in a State,",
+      "entitled, in addition to the period of absence allowed to her under section 6, or, as the case may be, under section 9, to leave with wages at the rate of maternity benefit for a maximum period of one month. 11. Nursing breaks.—Every woman delivered of a child who returns to duty after such delivery shall, in addition to the interval for rest allowed to her, be allowed in the course of her daily work two breaks of the prescribed duration for nursing the child until the child attains the age of fifteen months. 12. Dismissal during absence of pregnancy.—(1) When a woman absents herself from work in accordance with the provisions of this Act, it shall be unlawful for her employer to discharge or dismiss her during or on account of such absence or to give notice of discharge or dismissal on such a day that the notice will",
+      "likely to interfere with her pregnancy or the normal development of the foetus, or is likely to cause her miscarriage or otherwise to adversely affect her health. (4) The period referred to in sub-section (3) shall be— (a) the period of one month immediately preceding the period of six weeks, before the date of her expected delivery; (b) any period during the said period of six weeks for which the pregnant woman does not avail of leave of absence under section 6. 5. Right to payment of maternity benefits.—3[(1) Subject to the provisions of this Act, every woman shall be entitled to, and her employer shall be liable for, the payment of maternity benefit at the rate of the average daily wage for the period of her actual absence, that is to say, the period immediately preceding the day of her delivery, the actual day of her delivery and any",
+      "of the immigration. Explanation.—For the purpose of calculating under the sub-section the days on which a woman has actually worked in the establishment 1[the days for which she has been laid off or was on holidays declared under any law for the time being in force to be holidays with wages] during the period of twelve months immediately preceding the date of her expected delivery shall be taken into account. (3) The maximum period for which any woman shall be entitled to maternity benefit shall be twelve weeks of which not more than six weeks shall precede the date of her expected delivery:] Provided that where a woman dies during this period, the maternity benefit shall be payable only for the days up to and including the day of her death: 3[Provided further that where a woman, having been delivered of a child, dies during her delivery or during the"
+    ],
+    "confidence": "high",
+    "query": "How many weeks of maternity leave is a woman entitled to in India?"
+  }
+}

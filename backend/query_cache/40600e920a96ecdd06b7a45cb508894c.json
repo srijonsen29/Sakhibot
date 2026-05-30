@@ -1,0 +1,43 @@
+{
+  "timestamp": 1780137845.9018817,
+  "query": "How can a woman file a complaint against sexual harassment at office?",
+  "data": {
+    "answer": "According to section 9 of the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013, any aggrieved woman can make a complaint of sexual harassment at workplace to the Internal Committee if it is constituted, or the Local Committee, in case it is not so constituted, within a period of three months from the date of incident.\n\nTo file a complaint, the woman should write to the Internal Committee or the Local Committee, as the case may be, within three months from the date of the incident.\n\nPractical next step: Write down the details of the incident, including the date, time, and location, and the person(s) involved, and submit it to the Internal Committee or the Local Committee within three months.",
+    "sources": [
+      {
+        "source": "POSH Act 2013",
+        "filename": "posh_act_2013.pdf",
+        "chunk_index": 22
+      },
+      {
+        "source": "POSH Act 2013",
+        "filename": "posh_act_2013.pdf",
+        "chunk_index": 44
+      },
+      {
+        "source": "POSH Act 2013",
+        "filename": "posh_act_2013.pdf",
+        "chunk_index": 0
+      },
+      {
+        "source": "POSH Act 2013",
+        "filename": "posh_act_2013.pdf",
+        "chunk_index": 41
+      },
+      {
+        "source": "POSH Act 2013",
+        "filename": "posh_act_2013.pdf",
+        "chunk_index": 31
+      }
+    ],
+    "chunks": [
+      "The agency shall pay to the District Officer, such sums as may be required for the payment of fees or allowances referred to in sub-section (4) of section 7. (4) The accounts of the agency referred to in sub-section (2) shall be maintained and audited in such manner as may, in consultation with the Accountant General of the State, be prescribed and the person holding the custody of the accounts of the agency shall furnish, to the State Government, before such date, as may be prescribed, its audited copy of accounts together with auditors’ report thereon. CHAPTER IV COMPLAINT 9. Complaint of sexual harassment.—(1) Any aggrieved woman may make, in writing, a complaint of sexual harassment at workplace to the Internal Committee if so constituted, or the Local Committee, in case it is not so constituted, within a period of three months from the date of incident and in case",
+      "all cases of sexual harassment at workplace. 24. Appropriate Government to take measures to publicise the Act.—The appropriate Government may, subject to the availability of financial and other resources, — (a) develop relevant information, education, communication and training materials, and organise awareness programmes, to advance the understanding of the public of the provisions of this Act providing for protection against sexual harassment of woman at workplace; (b) formulate orientation and training programmes for the members of the 1[Local Committee]. 25. Power to call for information and inspection of records.—(1) The appropriate Government, on being satisfied that it is necessary in the public interest or in the interest of women employees at a workplace to do so, by order in writing,— (a) call upon any employer or District Officer to furnish in writing such information relating to sexual harassment as it may require; (b) authorise any officer to make inspection of",
+      "[Page 1] 1 THE SEXUAL HARASSMENT OF WOMEN AT WORKPLACE (PREVENTION, PROHIBITION AND REDRESSAL) ACT, 2013 ________________ ARRANGEMENT OF SECTIONS Last updated: 31-8-2021 _________________ CHAPTER I PRELIMINARY SECTIONS 1. Short title, extent and commencement. 2. Definitions. 3. Prevention of sexual harassment. CHAPTER II CONSTITUTION OF INTERNAL COMPLAINTS COMMITTEE 4. Constitution of Internal Complaints Committee. CHAPTER III CONSTITUTION OF LOCAL COMPLAINTS COMMITTEE 5. Notification of District Officer. 6. Constitution and jurisdiction of Local Committee. 7. Composition tenure and other terms and conditions of Local Committee. 8. Grants and audit. CHAPTER IV COMPLAINT 9. Complaint of sexual harassment. 10. Conciliation. 11. Inquiry into complaint. CHAPTER V INQUIRY INTO COMPLAINT 12. Action during pendency of inquiry. 13. Inquiry report. 14. Punishment for false or malicious complaint and false evidence. 15. Determination of compensation. 16. Prohibition of publication or making known contents of complaint and inquiry proceedings. 17. Penalty for publication or making known",
+      "Local Committee, as the case be, as it may require having regard to the complaint made under sub-section (1) of section 9; (g) provide assistance to the woman if she so chooses to file a complaint in relation to the offence under the Indian Penal Code (45 of 1860) or any other law for the time being in force; (h) cause to initiate action, under the Indian Penal Code (45 of 1860) or any other law for the time being in force, against the perpetrator, or if the aggrieved woman so desires, where the perpetrator is not an employee, in the workplace at which the incident of sexual harassment took place; [Page 12] 12 (i) treat sexual harassment as a misconduct under the service rules and initiate action for such misconduct; (j) monitor the timely submission of reports by the Internal Committee. CHAPTER VII DUTIES AND POWERS OF DISTRICT OFFICER",
+      "of the inquiry and such report be made available to the concerned parties. (2) Where the Internal Committee or the Local Committee, as the case may be, arrives at the conclusion that the allegation against the respondent has not been proved, it shall recommend to the employer and the District Officer that no action is required to be taken in the matter. [Page 10] 10 (3) Where the Internal Committee or the Local Committee, as the case may be, arrives at the conclusion that the allegation against the respondent has been proved, it shall recommend to the employer or the District Officer, as the case may be— (i) to take action for sexual harassment as a misconduct in accordance with the provisions of the service rules applicable to the respondent or where no such service rules have been made, in such manner as may be prescribed; (ii) to deduct, notwithstanding"
+    ],
+    "confidence": "high",
+    "query": "How can a woman file a complaint against sexual harassment at office?"
+  }
+}

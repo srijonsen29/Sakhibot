@@ -1,23 +1,16 @@
 import os
-import sys
-import fitz  # PyMuPDF
+import fitz
 import chromadb
-from chromadb.config import Settings
 from sentence_transformers import SentenceTransformer
-from config import CHROMA_PATH, EMBED_MODEL, CHUNK_SIZE, CHUNK_OVERLAP
+from config import CHROMA_PATH, EMBED_MODEL
 
-# ── initialise embedding model ──────────────────────────────────────────────
 print("Loading embedding model...")
 model = SentenceTransformer(EMBED_MODEL)
-print(f"Model loaded: {EMBED_MODEL}")
-
-# ── initialise ChromaDB ──────────────────────────────────────────────────────
 client = chromadb.PersistentClient(path=CHROMA_PATH)
 
-# delete existing collection if re-running
 try:
     client.delete_collection("sakhibot_legal")
-    print("Existing collection deleted — rebuilding fresh.")
+    print("Old collection deleted.")
 except:
     pass
 
@@ -25,124 +18,130 @@ collection = client.create_collection(
     name="sakhibot_legal",
     metadata={"hnsw:space": "cosine"}
 )
-print("ChromaDB collection created.")
 
-# ── helper: extract text from PDF ───────────────────────────────────────────
-def extract_text_from_pdf(pdf_path: str) -> str:
+def extract_text(pdf_path):
     doc = fitz.open(pdf_path)
-    full_text = ""
-    for page_num, page in enumerate(doc):
-        text = page.get_text()
-        if text.strip():
-            full_text += f"\n[Page {page_num + 1}]\n{text}"
+    text = ""
+    pages_ok = 0
+    total_pages = len(doc)          # ← get length BEFORE closing
+    for i, page in enumerate(doc):
+        t = page.get_text().strip()
+        if len(t) > 20:
+            text += f"\n[Page {i+1}]\n{t}"
+            pages_ok += 1
     doc.close()
-    return full_text
+    return text, pages_ok, total_pages   # ← return saved value
 
-# ── helper: split text into overlapping chunks ───────────────────────────────
-def split_into_chunks(text: str, chunk_size: int, overlap: int) -> list[str]:
+def chunk_text(text, size, overlap):
     words = text.split()
     chunks = []
-    start = 0
-    while start < len(words):
-        end = start + chunk_size
-        chunk = " ".join(words[start:end])
-        if len(chunk.strip()) > 50:  # skip tiny chunks
+    i = 0
+    while i < len(words):
+        chunk = " ".join(words[i:i+size])
+        if len(chunk.strip()) > 30:
             chunks.append(chunk)
-        start += chunk_size - overlap
+        i += size - overlap
     return chunks
 
-# ── process all PDFs ─────────────────────────────────────────────────────────
-DOCS_PATH = "docs"
-
-pdf_files = {
-    "dv_act_2005.pdf":              "Domestic Violence Act 2005",
-    "posh_act_2013.pdf":            "POSH Act 2013",
-    "dowry_act.pdf":                "Dowry Prohibition Act",
-    "maternity_act.pdf":            "Maternity Benefit Act",
-    "equal_remuneration_act.pdf":   "Equal Remuneration Act",
-    "ipc_498a.pdf":                 "Indian Penal Code",
-    "crpc.pdf":                     "Code of Criminal Procedure",
-    "constitution.pdf":             "Constitution of India",
-    "hindu_marriage_act_1955.pdf":  "Hindu Marriage Act 1955"
+# ── chunk size per document ───────────────────────────────────────────────────
+# short acts use 150 words so each section becomes its own chunk
+# long acts capped to keep DB balanced
+CONFIGS = {
+    "dv_act_2005.pdf": {
+        "name": "Domestic Violence Act 2005",
+        "size": 150, "overlap": 30, "cap": None
+    },
+    "posh_act_2013.pdf": {
+        "name": "POSH Act 2013",
+        "size": 150, "overlap": 30, "cap": None
+    },
+    "dowry_act.pdf": {
+        "name": "Dowry Prohibition Act",
+        "size": 100, "overlap": 20, "cap": None
+    },
+    "maternity_act.pdf": {
+        "name": "Maternity Benefit Act",
+        "size": 150, "overlap": 30, "cap": None
+    },
+    "equal_remuneration_act.pdf": {
+        "name": "Equal Remuneration Act",
+        "size": 100, "overlap": 20, "cap": None
+    },
+    "ipc_498a.pdf": {
+        "name": "Indian Penal Code",
+        "size": 200, "overlap": 40, "cap": 100
+    },
+    "crpc.pdf": {
+        "name": "Code of Criminal Procedure",
+        "size": 250, "overlap": 50, "cap": 80
+    },
+    "constitution.pdf": {
+        "name": "Constitution of India",
+        "size": 250, "overlap": 50, "cap": 60
+    },
 }
 
-total_chunks = 0
+DOCS = "docs"
 chunk_id = 0
+total = 0
+summary = []
 
-for filename, doc_name in pdf_files.items():
-    pdf_path = os.path.join(DOCS_PATH, filename)
-
-    if not os.path.exists(pdf_path):
-        print(f"SKIPPED (not found): {filename}")
+for filename, cfg in CONFIGS.items():
+    path = os.path.join(DOCS, filename)
+    if not os.path.exists(path):
+        print(f"NOT FOUND: {filename}")
+        summary.append((cfg["name"], 0, "❌ FILE NOT FOUND"))
         continue
 
-    print(f"\nProcessing: {doc_name}...")
+    text, pages_ok, pages_total = extract_text(path)
+    coverage = pages_ok / pages_total * 100 if pages_total else 0
 
-    # extract text
-    raw_text = extract_text_from_pdf(pdf_path)
-    if not raw_text.strip():
-        print(f"  WARNING: No text extracted from {filename} — may be scanned PDF")
+    if not text.strip() or pages_ok < 2:
+        print(f"⚠ {filename}: only {pages_ok}/{pages_total} pages have text — scanned PDF!")
+        summary.append((cfg["name"], 0, "❌ SCANNED — re-download needed"))
         continue
 
-    word_count = len(raw_text.split())
-    print(f"  Extracted {word_count} words")
+    words = len(text.split())
+    chunks = chunk_text(text, cfg["size"], cfg["overlap"])
 
-    # split into chunks
-    chunks = split_into_chunks(raw_text, CHUNK_SIZE, CHUNK_OVERLAP)
-    print(f"  Split into {len(chunks)} chunks")
+    if cfg["cap"]:
+        chunks = chunks[:cfg["cap"]]
 
-    # embed and store in batches of 50
-    batch_size = 50
-    for i in range(0, len(chunks), batch_size):
-        batch = chunks[i:i + batch_size]
+    print(f"\n{cfg['name']}")
+    print(f"  Pages: {pages_ok}/{pages_total} | Words: {words} | "
+          f"Chunks: {len(chunks)} (size={cfg['size']})")
 
-        embeddings = model.encode(batch).tolist()
-
-        ids = [f"chunk_{chunk_id + j}" for j in range(len(batch))]
-        metadatas = [
-            {
-                "source": doc_name,
-                "filename": filename,
-                "chunk_index": i + j
-            }
-            for j in range(len(batch))
-        ]
-
-        collection.add(
-            ids=ids,
-            embeddings=embeddings,
-            documents=batch,
-            metadatas=metadatas
-        )
-
+    for i in range(0, len(chunks), 50):
+        batch = chunks[i:i+50]
+        emb = model.encode(batch).tolist()
+        ids = [f"{filename}_{chunk_id+j}" for j in range(len(batch))]
+        metas = [{
+            "source": cfg["name"],
+            "filename": filename,
+            "chunk_index": i+j
+        } for j in range(len(batch))]
+        collection.add(ids=ids, embeddings=emb, documents=batch, metadatas=metas)
         chunk_id += len(batch)
 
-    total_chunks += len(chunks)
-    print(f"  Stored {len(chunks)} chunks from {doc_name}")
+    total += len(chunks)
+    summary.append((cfg["name"], len(chunks), "✓"))
 
-print(f"\nIngestion complete. Total chunks stored: {total_chunks}")
+# ── summary ───────────────────────────────────────────────────────────────────
+print(f"\n{'='*55}")
+print(f"Total chunks: {total}")
+print(f"{'='*55}")
+print(f"{'Document':<35} {'Chunks':>6}  Status")
+print("-"*55)
+for name, count, status in summary:
+    bar = "█" * min(count // 2, 25)
+    print(f"{name:<35} {count:>6}  {status} {bar}")
 
-# ── quick verification test ──────────────────────────────────────────────────
-print("\nRunning 5 verification queries...")
-
-test_queries = [
-    "What is domestic violence and what protection does a woman have?",
-    "How can a woman file a complaint against sexual harassment at workplace?",
-    "What are the rights of a woman against dowry demands?",
-    "What is maternity leave entitlement for working women in India?",
-    "What are fundamental rights of women under the Constitution of India?",
-]
-
-for query in test_queries:
-    query_embedding = model.encode([query]).tolist()
-    results = collection.query(
-        query_embeddings=query_embedding,
-        n_results=2
-    )
-    top_source = results["metadatas"][0][0]["source"] if results["metadatas"][0] else "None"
-    snippet = results["documents"][0][0][:80] if results["documents"][0] else "None"
-    print(f"\nQ: {query[:60]}...")
-    print(f"   Best match: {top_source}")
-    print(f"   Snippet: {snippet}...")
-
-print("\nDay 2 complete. ChromaDB is ready.")
+# ── DV Act check ──────────────────────────────────────────────────────────────
+dv = next((c for n, c, _ in summary if "Domestic Violence" in n), 0)
+if dv == 0:
+    print("\n❌ CRITICAL: DV Act still 0 chunks!")
+    print("   Your file is probably named wrong.")
+    print("   Run: ls docs/ and check the exact filename.")
+    print("   It must be exactly: dv_act_2005.pdf")
+else:
+    print(f"\n✓ DV Act has {dv} chunks — good!")

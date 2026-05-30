@@ -1,0 +1,43 @@
+{
+  "timestamp": 1780137933.8818903,
+  "query": "What is the Dowry Prohibition Act?",
+  "data": {
+    "answer": "The Dowry Prohibition Act, 1961 is an Act that prohibits the giving or taking of dowry. It was enacted by Parliament in the Twelfth Year of the Republic of India. (Source: Context 1, Section 1)\n\nPractical next step: You can check the official government website or consult with a local authority to find out the current status and implementation of the Dowry Prohibition Act in your area.",
+    "sources": [
+      {
+        "source": "Dowry Prohibition Act",
+        "filename": "dowry_act.pdf",
+        "chunk_index": 0
+      },
+      {
+        "source": "Dowry Prohibition Act",
+        "filename": "dowry_act.pdf",
+        "chunk_index": 23
+      },
+      {
+        "source": "Dowry Prohibition Act",
+        "filename": "dowry_act.pdf",
+        "chunk_index": 29
+      },
+      {
+        "source": "Dowry Prohibition Act",
+        "filename": "dowry_act.pdf",
+        "chunk_index": 21
+      },
+      {
+        "source": "Dowry Prohibition Act",
+        "filename": "dowry_act.pdf",
+        "chunk_index": 1
+      }
+    ],
+    "chunks": [
+      "[Page 1] 1 THE DOWRY PROHIBITION ACT, 1961 ACT NO. 28 OF 1961 [20th May, 1961.] An Act to prohibit the giving or taking of dowry. BE it enacted by Parliament in the Twelfth Year of the Republic of India as follows:— 1. Short title, extent and commencement.—(1) This Act may be called the Dowry Prohibition Act, 1961. (2) It extends to the whole of India except the State of Jammu and Kashmir. (3) It shall come into force on such date1 as the Central Government may, by notification in the Official Gazette, appoint. 2. Definition of “dowry”.—In this Act,",
+      "4] 4 8B. Dowry Prohibition Officers.—(1) The State Government may appoint as many Dowry Prohibition Officers as it thinks fit and specify the areas in respect of which they shall exercise their jurisdiction and powers under this Act. (2) Every Dowry Prohibition Officer shall exercise and perform the following powers and functions, namely:— (a) to see that the provisions of this Act are complied with; (b) to prevent, as far as possible, the taking or abetting the taking of, or the demanding of, dowry; (c) to collect such evidence as may be necessary for the prosecution of persons committing offences",
+      "State Government may, by notification in the Official Gazette, make rules for carrying out the purposes of this Act. (2) In particular, and without prejudice to the generality of the foregoing power, such rules may provide for all or any of the following matters, namely:— (a) the additional functions to be performed by the Dowry Prohibition Officers under sub-section (2) of section 8B; (b) limitations and conditions subject to which a Dowry Prohibition Officer may exercise his functions under sub-section (3) of section 8B. (3) Every rule made by the State Government under this section shall be laid as soon",
+      "without an order of a Magistrate. (2) Every offence under this Act shall be 7[non-bailable] and non-compoundable.] 8[8A. Burden of proof in certain cases.—Where any person is prosecuted for taking or abetting the taking of any dowry under section 3, or the demanding of dowry under section 4, the burden of proving that he had not committed an offence under those sections shall be on him.] 1. Ins. by Act 63 of 1984, s. 5 (w.e.f. 2-10-1985). 2. Ins. by Act 43 of 1986, s. 5 (w.e.f. 19-11-1986). 3. Subs. by s. 5, ibid., for “her heirs” (w.e.f. 19-11-1986). 4.",
+      "such date1 as the Central Government may, by notification in the Official Gazette, appoint. 2. Definition of “dowry”.—In this Act, “dowry” means any property or valuable security given or agreed to be given either directly or indirectly— (a) by one party to a marriage to the other party to the marriage; or (b) by the parents of either party to a marriage or by any other person, to either party to the marriage or to any other person; at or before 2[or any time after the marriage] 3[in connection with the marriage of the said parties, but does not include]"
+    ],
+    "confidence": "high",
+    "query": "What is the Dowry Prohibition Act?"
+  }
+}

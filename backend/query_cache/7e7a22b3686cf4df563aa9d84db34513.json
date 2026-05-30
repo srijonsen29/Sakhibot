@@ -1,0 +1,43 @@
+{
+  "timestamp": 1780137972.4762537,
+  "query": "Can an employer pay a woman less than a man for the same work?",
+  "data": {
+    "answer": "No, an employer cannot pay a woman less than a man for the same work. According to the context, \"No employer shall pay to any worker, employed by him in an establishment or employment, remuneration, whether payable in cash or in kind, at rates less favourable than those at which remuneration is paid by him to the workers of the opposite sex in such establishment or employment for performing the same work or work of a similar nature.\" (Section 4(1))\n\nPractical next step: If you feel you are being paid less than a man for the same work, you can file a complaint with the authority appointed under the Act. You can start by gathering evidence of your work and the remuneration paid to you and your male colleagues.",
+    "sources": [
+      {
+        "source": "Equal Remuneration Act",
+        "filename": "equal_remuneration_act.pdf",
+        "chunk_index": 7
+      },
+      {
+        "source": "Equal Remuneration Act",
+        "filename": "equal_remuneration_act.pdf",
+        "chunk_index": 16
+      },
+      {
+        "source": "Equal Remuneration Act",
+        "filename": "equal_remuneration_act.pdf",
+        "chunk_index": 8
+      },
+      {
+        "source": "Equal Remuneration Act",
+        "filename": "equal_remuneration_act.pdf",
+        "chunk_index": 9
+      },
+      {
+        "source": "Equal Remuneration Act",
+        "filename": "equal_remuneration_act.pdf",
+        "chunk_index": 14
+      }
+    ],
+    "chunks": [
+      "RATES TO MEN AND WOMEN WORKERS AND OTHER MATTERS 4. Duty of employer to pay equal remuneration to men and women workers for same work or work of a similar nature.—(1) No employer shall pay to any worker, employed by him in an establishment or employment, remuneration, whether payable in cash or in kind, at rates less favourable than those at which remuneration is paid by him to the workers of the opposite sex in such establishment or employment for performing the same work or work of a similar nature. (2) No employer shall, for the purpose of complying with",
+      "two or more works are of the same nature or of a similar nature, it shall be decided by the authority appointed under sub-section (1). (4) Where a complaint or claim is made to the authority appointed under sub-section (1), it may, after giving the applicant and the employer an opportunity of being heard, and after such inquiry as it may consider necessary, direct,— (i) in the case of a claim arising out of non-payment of wages at equal rates to men and women workers for the same work or work of a similar nature, that payment be made to",
+      "performing the same work or work of a similar nature. (2) No employer shall, for the purpose of complying with the provisions of sub-section (1), reduce the rate of remuneration of any worker. (3) Where, in an establishment or employment, the rates of remuneration payable before the commencement of this Act for men and women workers for the same work or work of a similar nature are different only on the ground of sex, then the higher (in cases where there are only two rates), or, as the case may be, the highest (in cases where there are more than",
+      "there are only two rates), or, as the case may be, the highest (in cases where there are more than two rates), of such rates shall be the rate at which remuneration shall be payable, on and from such commencement, to such men and women workers: Provided that nothing in this sub-section shall be deemed to entitle a worker to the revision of the rate of remuneration payable to him or her with reference to the service rendered by him or her before the commencement of this Act. 5. No discrimination to be made while recruiting men and women workers.—On",
+      "employment of women workers, as the appropriate Government may think fit. 1. Ins. by Act 49 of 1987, s. 2 (w.e.f. 16-12-1987). [Page 3] 3 7. Power of appropriate Government to appoint authorities for hearing and deciding claims and complaints.—(1) The appropriate Government may, by notification, appoint such officers, not below the rank of a Labour Officer, as it thinks fit to be the authorities for the purpose of hearing and deciding— (a) complaints with regard to the contravention of any provision of this Act; (b) claims arising out of non-payment of wages at equal rates to men and women"
+    ],
+    "confidence": "high",
+    "query": "Can an employer pay a woman less than a man for the same work?"
+  }
+}

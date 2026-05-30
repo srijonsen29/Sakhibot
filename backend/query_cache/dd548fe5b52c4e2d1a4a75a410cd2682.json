@@ -1,0 +1,43 @@
+{
+  "timestamp": 1780139277.8795998,
+  "query": "What is domestic violence under Indian law?",
+  "data": {
+    "answer": "According to the context, domestic violence is defined in section 3 of the Protection of Women from Domestic Violence Act, 2005. It includes any act or conduct that harms or injures or endangers the health, safety, life, limb, or well-being of the aggrieved person, whether physical or mental. This includes:\n\n- Physical abuse\n- Sexual abuse\n- Verbal and emotional abuse\n- Economic abuse\n- Harassment or coercion to meet any unlawful demand for dowry or other property\n- Threats or conduct that has the effect of threatening the aggrieved person or any person related to her.\n\n(Section 3 of the Protection of Women from Domestic Violence Act, 2005)\n\nPractical next step: If you or someone you know is experiencing domestic violence, please contact the National Commission for Women (NCW) or the local police for assistance and support.",
+    "sources": [
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 2
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 3
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 4
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 9
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 30
+      }
+    ],
+    "chunks": [
+      "action taken in good faith. 36. Act not in derogation of any other law. 37. Power of Central Government to make rules. [Page 3] 3 THE PROTECTION OF WOMEN FROM DOMESTIC VIOLENCE ACT, 2005 ACT NO. 43 OF 2005 [13th September, 2005.] An Act to provide for more effective protection of the rights of women guaranteed under the Constitution who are victims of violence of any kind occurring within the family and formatters connected therewith or incidental thereto. BE it enacted by Parliament in the Fifty-sixth Year of the Republic of India as follows:— CHAPTER I PRELIMINARY 1. Short title, extent and commencement.—(1) This Act may be called the Protection of Women from Domestic Violence Act, 2005. (2) It extends to the whole of India 1***. (3) It shall come into force on such date2 as the Central Government may, by notification in the Official Gazette, appoint. 2. Definitions.—In this",
+      "to the whole of India 1***. (3) It shall come into force on such date2 as the Central Government may, by notification in the Official Gazette, appoint. 2. Definitions.—In this Act, unless the context otherwise requires,— (a) “aggrieved person” means any woman who is, or has been, in a domestic relationship with the respondent and who alleges to have been subjected to any act of domestic violence by the respondent; (b) “child” means any person below the age of eighteen years and includes any adopted, step or foster child; (c) “compensation order” means an order granted in terms of section 22; (d) “custody order” means an order granted in terms of section 21; (e) “domestic incident report” means a report made in the prescribed form on receipt of a complaint of domestic violence from an aggrieved person; (f) “domestic relationship” means a relationship between two persons who live or have,",
+      "made in the prescribed form on receipt of a complaint of domestic violence from an aggrieved person; (f) “domestic relationship” means a relationship between two persons who live or have, at any point of time, lived together in a shared household, when they are related by consanguinity, marriage, or through a relationship in the nature of marriage, adoption or are family members living together as a joint family; (g) “domestic violence” has the same meaning as assigned to it in section 3; (h) “dowry” shall have the same meaning as assigned to it in section 2 of the Dowry Prohibition Act, 1961 (28 of 1961); (i) “Magistrate” means the Judicial Magistrate of the first class, or as the case may be, the Metropolitan Magistrate, exercising jurisdiction under the Code of Criminal Procedure, 1973(2 of 1974) in the area where the aggrieved person resides temporarily or otherwise or the respondent resides",
+      "or conduct of the respondent shall constitute domestic violence in case it— (a) harms or injures or endangers the health, safety, life, limb or well-being, whether mental or physical, of the aggrieved person or tends to do so and includes causing physical abuse, sexual abuse, verbal and emotional abuse and economic abuse; or (b) harasses, harms, injures or endangers the aggrieved person with a view to coerce her or any other person related to her to meet any unlawful demand for any dowry or other property or valuable security; or (c) has the effect of threatening the aggrieved person or any person related to her by any conduct mentioned in clause (a) or clause (b); or (d) otherwise injures or causes harm, whether physical or mental, to the aggrieved person. Explanation I.—For the purposes of this section,— (i) “physical abuse” means any act or conduct which is of such a",
+      "a child, its school or any other place frequented by the aggrieved person; (d) attempting to communicate in any form, whatsoever, with the aggrieved person, including personal, oral or written or electronic or telephonic contact; (e) alienating any assets, operating bank lockers or bank accounts used or held or enjoyed by both the parties, jointly by the aggrieved person and the respondent or singly by the respondent, including her stridhan or any other property held either jointly by the parties or separately by them without the leave of the Magistrate; (f) causing violence to the dependants, other relatives or any person who give the aggrieved person assistance from domestic violence; (g) committing any other act as specified in the protection order. 19. Residence orders.—(1) While disposing of an application under sub-section (1) of section12, the Magistrate may, on being satisfied that domestic violence has taken place, pass a residence order—"
+    ],
+    "confidence": "high",
+    "query": "What is domestic violence under Indian law?"
+  }
+}

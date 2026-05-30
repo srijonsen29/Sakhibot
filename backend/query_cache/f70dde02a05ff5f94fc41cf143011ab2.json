@@ -1,0 +1,43 @@
+{
+  "timestamp": 1780137816.347752,
+  "query": "Who can file a domestic violence complaint?",
+  "data": {
+    "answer": "According to the context, the following persons can file a domestic violence complaint:\n\n1. An aggrieved person (Section 12(1) of The Protection of Women from Domestic Violence Act, 2005)\n2. A Protection Officer (Section 12(1) of The Protection of Women from Domestic Violence Act, 2005)\n3. Any other person on behalf of the aggrieved person (Section 12(1) of The Protection of Women from Domestic Violence Act, 2005)\n\nPractical next step: If you are a victim of domestic violence, you can approach a Protection Officer or a police officer and report the incident. They will guide you on the next steps to take.",
+    "sources": [
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 13
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 21
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 0
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 24
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 23
+      }
+    ],
+    "chunks": [
+      "PROTECTION OFFICERS, SERVICE PROVIDERS, ETC. 4. Information to Protection Officer and exclusion of liability of informant.—(1) Any person who has reason to believe that an act of domestic violence has been, or is being, or is likely to be committed, may give information about it to the concerned Protection Officer. (2) No liability, civil or criminal, shall be incurred by any person for giving in good faith of information for the purpose of sub-section (1). 5. Duties of police officers, service providers and Magistrate.—A police officer, Protection Officer, service provider or Magistrate who has received a complaint of domestic violence or is otherwise present at the place of an incident of domestic violence or when the incident of domestic violence is reported to him, shall inform the aggrieved person— (a) of her right to make an application for obtaining a relief by way of a protection order, an order for",
+      "person so desires and forward a copy thereof to the Magistrate and the Protection Officer having jurisdiction in the area where the domestic violence took place; (b) get the aggrieved person medically examined and forward a copy of the medical repot to the Protection Officer and the police station within the local limits of which the domestic violence took place; (c) ensure that the aggrieved person is provided shelter in a shelter home, if she so requires and forward a report of the lodging of the aggrieved person in the shelter home to the police station within the local limits of which the domestic violence took place. (3) No suit, prosecution or other legal proceeding shall lie against any service provider or any member of the service provider who is, or who is deemed to be, acting or purporting to act under this Act, for anything which is in good",
+      "[Page 1] 1 THE PROTECTION OF WOMEN FROM DOMESTIC VIOLENCE ACT, 2005 _____________ ARRANGEMENT OF SECTIONS _____________ CHAPTER I PRELIMINARY SECTIONS 1. Short title, extent and commencement. 2. Definitions. CHAPTER II DOMESTIC VIOLENCE 3. Definitions of domestic violence. CHAPTER III POWERS AND DUTIES OF PROTECTION OFFICERS, SERVICE PROVIDERS, ETC. 4. Information to Protection Officer and exclusion of liability of informant. 5. Duties of police officers, service providers and Magistrate. 6. Duties of shelter homes. 7. Duties of medical facilities. 8. Appointment of Protection Officers. 9. Duties and functions of Protection Officers. 10. Service providers. 11. Duties of Government. CHAPTER IV PROCEDURE FOR OBTAINING ORDERS OF RELIEFS 12. Application of Magistrate. 13. Service of notice. 14. Counselling. 15. Assistance of welfare expert. 16. Proceedings to be held in camera. 17. Right to reside in a shared household. 18. Protection orders. 19. Residence orders. 20. Monetary reliefs. 21. Custody orders. 22. Compensation",
+      "more reliefs under this Act: Provided that before passing any order on such application, the Magistrate shall take into consideration any domestic incident report received by him from the Protection Officer or the service provider. (2) The relief sought for under sub-section (1) may include a relief for issuance of an order for payment of compensation or damages without prejudice to the right of such person to institute a suit for compensation or damages for the injuries caused by the acts of domestic violence committed by the respondent: Provided that where a decree for any amount as compensation or damages has been passed by any court in favour of the aggrieved person, the amount, if any, paid or payable in pursuance of the order made by the Magistrate under this Act shall be set off against the amount payable under such decree and the decree shall, notwithstanding anything contained in",
+      "services are given periodic sensitization and awareness training on the issues addressed by this Act; (c) effective co-ordination between the services provided by concerned Ministries and Departments dealing with law, home affairs including law and order, health and human resources to address issues of domestic violence is established and periodical review of the same is conducted; (d) protocols for the various Ministries concerned with the delivery of services to women under this Act including the courts are prepared and put in place. CHAPTER IV PROCEDURE FOR OBTAININGORDERS OF RELIEFS 12. Application to Magistrate.—(1) An aggrieved person or a Protection Officer or any other person on behalf of the aggrieved person may present an application to the Magistrate seeking one or more reliefs under this Act: Provided that before passing any order on such application, the Magistrate shall take into consideration any domestic incident report received by him from the Protection"
+    ],
+    "confidence": "high",
+    "query": "Who can file a domestic violence complaint?"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "timestamp": 1780137801.410038,
+  "query": "What is a residence order under the Domestic Violence Act?",
+  "data": {
+    "answer": "A residence order is a type of order that can be passed by the Magistrate under the Domestic Violence Act. According to the Act, a residence order can be passed to protect the aggrieved person from domestic violence. The order can include the following provisions:\n\n- Restraining the respondent from dispossessing or disturbing the possession of the shared household.\n- Directing the respondent to remove himself from the shared household.\n- Restraining the respondent or his relatives from entering any portion of the shared household where the aggrieved person resides.\n- Restraining the respondent from alienating or disposing off the shared household or encumbering it.\n- Restraining the respondent from renouncing his rights in the shared household except with the leave of the Magistrate.\n- Directing the respondent to secure same level of alternate accommodation for the aggrieved person as enjoyed by her in the shared household or to pay rent for the same.\n\n(Section 19 of the Domestic Violence Act)\n\nPractical next step: If you are facing domestic violence and want to seek a residence order, you can approach the nearest police station or a women's helpline and report the incident. They will guide you on the next steps to take.",
+    "sources": [
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 31
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 30
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 4
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 32
+      },
+      {
+        "source": "Domestic Violence Act 2005",
+        "filename": "dv_act_2005.pdf",
+        "chunk_index": 3
+      }
+    ],
+    "chunks": [
+      "order. 19. Residence orders.—(1) While disposing of an application under sub-section (1) of section12, the Magistrate may, on being satisfied that domestic violence has taken place, pass a residence order— (a) restraining the respondent from dispossessing or in any other manner disturbing the possession of the aggrieved person from the shared household, whether or not the respondent has a legal or equitable interest in the shared household; (b) directing the respondent to remove himself from the shared household; (c) restraining the respondent or any of his relatives from entering any portion of the shared household in which the aggrieved person resides; (d) restraining the respondent from alienating or disposing off the shared household or encumbering the same; (e) restraining the respondent from renouncing his rights in the shared household except with the leave of the Magistrate; or (f) directing the respondent to secure same level of alternate accommodation for the",
+      "a child, its school or any other place frequented by the aggrieved person; (d) attempting to communicate in any form, whatsoever, with the aggrieved person, including personal, oral or written or electronic or telephonic contact; (e) alienating any assets, operating bank lockers or bank accounts used or held or enjoyed by both the parties, jointly by the aggrieved person and the respondent or singly by the respondent, including her stridhan or any other property held either jointly by the parties or separately by them without the leave of the Magistrate; (f) causing violence to the dependants, other relatives or any person who give the aggrieved person assistance from domestic violence; (g) committing any other act as specified in the protection order. 19. Residence orders.—(1) While disposing of an application under sub-section (1) of section12, the Magistrate may, on being satisfied that domestic violence has taken place, pass a residence order—",
+      "made in the prescribed form on receipt of a complaint of domestic violence from an aggrieved person; (f) “domestic relationship” means a relationship between two persons who live or have, at any point of time, lived together in a shared household, when they are related by consanguinity, marriage, or through a relationship in the nature of marriage, adoption or are family members living together as a joint family; (g) “domestic violence” has the same meaning as assigned to it in section 3; (h) “dowry” shall have the same meaning as assigned to it in section 2 of the Dowry Prohibition Act, 1961 (28 of 1961); (i) “Magistrate” means the Judicial Magistrate of the first class, or as the case may be, the Metropolitan Magistrate, exercising jurisdiction under the Code of Criminal Procedure, 1973(2 of 1974) in the area where the aggrieved person resides temporarily or otherwise or the respondent resides",
+      "respondent from renouncing his rights in the shared household except with the leave of the Magistrate; or (f) directing the respondent to secure same level of alternate accommodation for the aggrieved person as enjoyed by her in the shared household or to pay rent for the same, if the circumstances so require: Provided that no order under clause (b) shall be passed against any person who is a woman. [Page 9] 9 (2) The Magistrate may impose any additional conditions or pass any other direction which he may deem reasonably necessary to protect or to provide for the safety of the aggrieved person or any child of such aggrieved person. (3) The Magistrate may require from the respondent to execute a bond, with or without sureties, for preventing the commission of domestic violence. (4) An order under sub-section (3) shall be deemed to be an order under Chapter VIII of",
+      "to the whole of India 1***. (3) It shall come into force on such date2 as the Central Government may, by notification in the Official Gazette, appoint. 2. Definitions.—In this Act, unless the context otherwise requires,— (a) “aggrieved person” means any woman who is, or has been, in a domestic relationship with the respondent and who alleges to have been subjected to any act of domestic violence by the respondent; (b) “child” means any person below the age of eighteen years and includes any adopted, step or foster child; (c) “compensation order” means an order granted in terms of section 22; (d) “custody order” means an order granted in terms of section 21; (e) “domestic incident report” means a report made in the prescribed form on receipt of a complaint of domestic violence from an aggrieved person; (f) “domestic relationship” means a relationship between two persons who live or have,"
+    ],
+    "confidence": "high",
+    "query": "What is a residence order under the Domestic Violence Act?"
+  }
+}
